@@ -20,5 +20,5 @@ void loop() {
 
   pot=analogRead(A0);
   val = map(pot,0,1023,0,180) ; 
-  Serial.print(val) ; 
+  Serial.print(val) ; ;;
 }
